@@ -1,5 +1,5 @@
 body {
-    background-color: #333330;
+    background-color: #002b57;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     max-width: 900px;
     margin: auto;
@@ -7,7 +7,26 @@ body {
 
 .titulo {
     font-size: 50px;
-    color: #E14DFF;
+    color: #0073E6;
     text-align: center;
 }
 
+.nova-tarefa {
+    font-size: 20px;
+    color: #fff;
+
+}
+
+#adicionar-tarefa {
+    height: 30px;
+    border: 2px solid #CCF7FF;
+    background-color: #333;
+    color: #fff;
+}
+
+#botao-adicionar {
+    height: 35px;
+    border: 2px solid #CCF7FF;
+    background-color: #333;
+    color: #fff;
+}
