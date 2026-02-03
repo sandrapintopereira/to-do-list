@@ -1,0 +1,13 @@
+body {
+    background-color: #333330;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+
+.titulo {
+    font-size: 50px;
+    color: #E14DFF;
+    text-align: center;
+}
+
