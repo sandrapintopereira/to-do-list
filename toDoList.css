@@ -1,8 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     background-color: #002b57;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     max-width: 900px;
     margin: auto;
+    padding: 20px;
+    color: #fff;
 }
 
 .titulo {
@@ -13,19 +21,20 @@ body {
 
 .nova-tarefa {
     font-size: 20px;
-    color: #fff;
-
 }
 
 #adicionar-tarefa {
+    flex: 1;
     height: 30px;
     border: 2px solid #CCF7FF;
     background-color: #333;
     color: #fff;
+    padding: 0 8px;
 }
 
 #botao-adicionar {
     height: 35px;
+    padding: 0 15px;
     border: 2px solid #CCF7FF;
     background-color: #333;
     color: #fff;
