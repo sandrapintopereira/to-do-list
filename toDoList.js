@@ -1,4 +1,6 @@
-function adicionarTarefa() {
-    const input = document.querySelector("#adicionar-tarefa").value;
-    
-}
+const formTarefa = document.getElementById("form-tarefa");
+
+formTarefa.addEventListener("submit", (e) => {
+    e.preventDefault(); //evitar reload da página
+    console.log("Form Submetido");
+});
