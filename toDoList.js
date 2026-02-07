@@ -22,3 +22,10 @@ formTarefa.addEventListener("submit", (e) => {
   listaTarefas.appendChild(li);
   inputTarefa.value = "";
 });
+
+listaTarefas.addEventListener("click", (event) => {
+  if (event.target.classList.contains("check-tarefa")) {
+    const li = event.target.closest("li");
+    li.classList.toggle("tarefa-concluida");
+  }
+});
