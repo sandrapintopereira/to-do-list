@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #002b57;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    color: #fff;
+}
+
+.titulo {
+    font-size: 50px;
+    color: #0073E6;
+    text-align: center;
+}
+
+main {
+    background-color: #013767;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.seccao-add-tarefa {
+    font-size: 10px;
+    margin-bottom: 25px;
+}
+
+.nova-tarefa {
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+#form-tarefa {
+    display: flex;
+    gap: 12px;
+}
+
+#adicionar-tarefa {
+    flex: 1;
+    height: 30px;
+    border: 1px solid #CCF7FF;
+    background-color: #222;
+    color: #fff;
+    padding: 0 8px;
+    border-radius: 4px;
+}
+
+#adicionar-tarefa::placeholder {
+    color: #aaa;
+}
+
+#botao-adicionar {
+    height: 30px;
+    padding: 0 15px;
+    border: 1px solid #CCF7FF;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#lista-tarefas {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.item-lista {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #024273;
+    border-radius: 6px;
+    padding: 8px 10px;
+    margin-bottom: 8px;
+}
+
+.check-tarefa {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.item-lista span {
+    flex: 1;
+    font-size: 15px;
+}
+
+.btn-remover {
+    border: none;
+    background-color: #ff4d4d;
+    color: #fff;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.tarefa-concluida span {
+    text-decoration: line-through;
+}
